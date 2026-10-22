@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hues Architects And Interior Designers is based on Prabhat Road, Deccan Gymkhana, Pune, Maharashtra."
+    />
+    <meta name="theme-color" content="#f8f7f4" />
+    <title>Hues Architects And Interior Designers — Pune</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="font-sans">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#home" aria-label="Hues Architects And Interior Designers home">
+          <span class="wordmark-name">HUES</span>
+          <span class="wordmark-subtitle">ARCHITECTS &amp; INTERIOR DESIGNERS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="#portfolio">Portfolio</a>
+          <a href="#services">Services</a>
+          <a href="#process">Our process</a>
+          <a href="#about">About</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2400&q=88"
+          alt="Sunlit contemporary living room with warm natural textures and sculptural furniture"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> ARCHITECTURE &amp; INTERIOR DESIGN · PUNE, MAHARASHTRA</p>
+          <h1 id="hero-title">Thoughtful spaces,<br />made for life<br /><em>in Pune.</em></h1>
+          <p class="hero-description">
+            Hues Architects And Interior Designers, based in Pune, Maharashtra.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#portfolio">Explore our work <span aria-hidden="true">↗</span></a>
+            <a class="text-link hero-visit" href="#contact"><span class="play-icon" aria-hidden="true">↗</span> Visit our Pune studio</a>
+          </div>
+          <div class="hero-location"><span class="location-line"></span> BASED IN DECCAN GYMKHANA, PUNE</div>
+        </div>
+        <a href="#portfolio" class="scroll-cue" aria-label="Scroll to our projects"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="proof-bar" aria-label="Studio highlights">
+        <div class="proof-intro">GOOD DESIGN<br />IS FELT.</div>
+        <div class="proof-item"><strong>4.6<span>/5</span></strong><span class="proof-detail">GOOGLE RATING · 21 REVIEWS</span></div>
+        <div class="proof-item"><strong>Affordable</strong><span class="proof-detail">CONTEMPORARY DESIGNS</span></div>
+        <div class="proof-item"><strong>Across India</strong><span class="proof-detail">DESIGNS FOR EVERY KIND OF SPACE</span></div>
+        <div class="proof-note">Interior designers and construction professionals,<br />together under one roof.</div>
+      </section>
+
+      <section class="section portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-index">01</span> A FEW FAVOURITES</p>
+            <h2 id="portfolio-title">Spaces with a <em>point of view.</em></h2>
+          </div>
+          <p class="section-intro">Every brief is different. Our work is united by a simple idea: the best spaces feel like they could only belong to you.</p>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter portfolio projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="kitchen" aria-pressed="false">Modular kitchens</button>
+          <button class="filter-button" type="button" data-filter="living" aria-pressed="false">Living &amp; dining</button>
+          <button class="filter-button" type="button" data-filter="lighting" aria-pressed="false">False ceilings &amp; lighting</button>
+          <button class="filter-button" type="button" data-filter="bedroom" aria-pressed="false">Bedroom suites</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-large" data-category="living">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about The Quiet Edit project">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" alt="Warm, contemporary living room in a Pune home" loading="lazy" />
+              <span class="project-number">01 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">A MORE CONSIDERED EVERYDAY</p><h3>The Quiet Edit</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+          <article class="project-card project-card-offset" data-category="kitchen">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about The Sunday Kitchen project">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85" alt="Refined modern kitchen with natural wood and stone finishes" loading="lazy" />
+              <span class="project-number">02 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">MADE FOR SLOW MORNINGS</p><h3>The Sunday Kitchen</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+          <article class="project-card" data-category="bedroom">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about Suite No. 3 project">
+              <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1100&q=85" alt="Serene bedroom layered with soft neutral textiles and warm timber" loading="lazy" />
+              <span class="project-number">03 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">A LITTLE ROOM TO EXHALE</p><h3>Suite No. 3</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+          <article class="project-card project-card-wide" data-category="lighting">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about Light, Layered project">
+              <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85" alt="Layered architectural lighting in an elegant open-plan interior" loading="lazy" />
+              <span class="project-number">04 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">THE BEAUTY OF A SOFTER GLOW</p><h3>Light, Layered</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+          <article class="project-card project-card-offset" data-category="kitchen">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about Stone & Grain project">
+              <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1100&q=85" alt="Bespoke kitchen with a natural stone island and oak cabinetry" loading="lazy" />
+              <span class="project-number">05 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">HONEST MATERIALS, BEAUTIFULLY MADE</p><h3>Stone &amp; Grain</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+          <article class="project-card" data-category="living">
+            <a class="project-image-link" href="#contact" aria-label="Enquire about The Sunday House project">
+              <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1100&q=85" alt="Thoughtfully styled lounge with neutral upholstery and sculptural details" loading="lazy" />
+              <span class="project-number">06 / 06</span><span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-caption"><div><p class="project-type">A HOME THAT GROWS WITH YOU</p><h3>The Sunday House</h3></div><p class="project-place">Pune<br />Maharashtra</p></div>
+          </article>
+        </div>
+
+        <div class="portfolio-footer">
+          <p>Have a space in mind? <a href="#contact">We'd love to see it. <span aria-hidden="true">↗</span></a></p>
+          <a class="text-link" href="#contact">START A PROJECT <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="transformation-section" aria-labelledby="transformation-title">
+        <div class="transformation-copy">
+          <p class="eyebrow"><span class="eyebrow-index">02</span> THE CHANGE IS IN THE DETAILS</p>
+          <h2 id="transformation-title">A fresh start,<br /><em>made together.</em></h2>
+          <p>A good transformation doesn't erase the bones of a home. It finds what's worth keeping, then brings everything else into focus.</p>
+          <a class="text-link" href="#contact">LET'S TALK ABOUT YOUR SPACE <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="before-after" data-slider>
+          <img class="after-image" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1500&q=85" alt="Finished warm modern kitchen transformation" loading="lazy" />
+          <div class="before-layer">
+            <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1500&q=85" alt="Kitchen before renovation" loading="lazy" />
+          </div>
+          <span class="comparison-label comparison-before">BEFORE</span>
+          <span class="comparison-label comparison-after">AFTER</span>
+          <div class="slider-divider" aria-hidden="true"><span>↔</span></div>
+          <label class="visually-hidden" for="comparison-range">Drag to compare the kitchen before and after its renovation</label>
+          <input id="comparison-range" class="comparison-range" type="range" min="0" max="100" value="50" aria-valuetext="50% before, 50% after" />
+          <p class="comparison-hint">DRAG TO EXPLORE THE TRANSFORMATION</p>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-index">03</span> THOUGHT THROUGH, START TO FINISH</p>
+            <h2 id="services-title">Every detail, <em>in good hands.</em></h2>
+          </div>
+          <p class="section-intro">One thoughtful team. From the first sketch and the first sample to the final walk-through.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-index">01</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M5 35V9l15-5 15 5v26M5 17h30M14 17v18m12-18v18M5 27h9m12 0h9" stroke="currentColor" stroke-width="1.3"/><path d="M16 11h8" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Kitchens, made personal</h3><p>Hardworking modular layouts, quietly beautiful finishes and the right hardware for everyday life.</p><span class="service-note">HYDRAULIC FITTINGS · ACRYLIC &amp; PU FINISHES</span></article>
+          <article class="service-card"><span class="service-index">02</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M6 35V7h28v28M6 15h28M15 7v28m10-28v28M6 23h9m10 0h9" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="19" r="1" fill="currentColor"/><circle cx="22" cy="19" r="1" fill="currentColor"/></svg></div><h3>Storage that settles in</h3><p>Considered wardrobes and clever storage designed around your things, not the other way round.</p><span class="service-note">BESPOKE WARDROBES · SMART STORAGE</span></article>
+          <article class="service-card"><span class="service-index">03</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M4 11h32M8 11v7h24v-7M12 18v5m8-5v5m8-5v5M8 23h24v12H8zM13 28h14" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Light that changes everything</h3><p>Thoughtful ceilings, layered ambient light and architectural details that make a room feel just right.</p><span class="service-note">FALSE CEILINGS · PROFILE LIGHTING</span></article>
+          <article class="service-card"><span class="service-index">04</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M7 35V5h26v30M7 12h26M13 5v30m7-30v30m7-30v30M4 35h32" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>Walls worth a second look</h3><p>Natural textures, tailored panelling, warm timber louvers and just the right wallpaper.</p><span class="service-note">WALL PANELLING · LOUVERS · WALLPAPER</span></article>
+          <article class="service-card service-card-featured"><span class="service-index">05</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="m6 20 14-15 14 15M10 17v18h20V17M16 35V23h8v12M4 35h32" stroke="currentColor" stroke-width="1.3"/><path d="m14 12 6-6 6 6" stroke="currentColor" stroke-width="1.3"/></svg></div><h3>From first sketch to front door</h3><p>One team to bring it all together: materials, making, site management and a considered handover.</p><span class="service-note">TURNKEY RENOVATION · SITE MANAGEMENT</span></article>
+        </div>
+      </section>
+
+      <section class="process-section" id="process" aria-labelledby="process-title">
+        <div class="process-inner">
+          <div class="process-heading">
+            <p class="eyebrow"><span class="eyebrow-index">04</span> CLEAR PLAN. CALM PROCESS.</p>
+            <h2 id="process-title">Good things<br />happen <em>in order.</em></h2>
+            <p>No guesswork, no surprises. Just a considered process, with you in the room at every step.</p>
+            <a class="text-link" href="#contact">MEET YOUR DESIGNER <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="process-list">
+            <article class="process-step"><span class="step-number">01</span><div><h3>Listen before we draw</h3><p>A complimentary space assessment and an honest conversation about what matters most to you.</p></div><span class="step-symbol" aria-hidden="true">＋</span></article>
+            <article class="process-step"><span class="step-number">02</span><div><h3>See it before it's real</h3><p>Bring ideas to life with detailed 3D views and tactile material moodboards, made for your home.</p></div><span class="step-symbol" aria-hidden="true">＋</span></article>
+            <article class="process-step"><span class="step-number">03</span><div><h3>Made carefully. Made to last.</h3><p>Precision in-house fabrication, considered finishes and on-site assembly, overseen by our team.</p></div><span class="step-symbol" aria-hidden="true">＋</span></article>
+            <article class="process-step"><span class="step-number">04</span><div><h3>Yours to come home to</h3><p>A thorough quality check, a proper handover and a team still here for you afterwards.</p></div><span class="step-symbol" aria-hidden="true">＋</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=1400&q=85" alt="A welcoming home interior, layered with natural materials and soft light" loading="lazy" />
+          <span class="image-caption">CONSIDERED DETAILS. ROOM TO BREATHE.</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow"><span class="eyebrow-index">05</span> A LITTLE ABOUT US</p>
+          <h2 id="about-title">More than how a room <em>looks.</em></h2>
+          <p>Hues Architects And Interior Designers is an architecture and interior design practice based in Pune, Maharashtra.</p>
+          <p>Visit us on Prabhat Road in Deccan Gymkhana to discuss your project.</p>
+          <div class="about-signoff"><span class="signoff-rule"></span><span>Thoughtfully yours,</span><strong>Hues</strong></div>
+        </div>
+      </section>
+
+      <section class="review-section" id="reviews" aria-labelledby="reviews-title">
+        <div class="review-top">
+          <p class="eyebrow"><span class="eyebrow-index">06</span> KIND WORDS, KEPT CLOSE</p>
+          <p class="review-count">4.6 <span>★★★★★</span> &nbsp; 21 GOOGLE REVIEWS</p>
+        </div>
+        <div class="review-content">
+          <span class="quote-mark" aria-hidden="true">✳</span>
+          <h2 id="reviews-title">Rated 4.6 stars on Google.<br /><em>21 Google reviews.</em></h2>
+        </div>
+        <a class="text-link review-link" href="https://www.google.com/search?q=Hues+Architects+And+Interior+Designers+Pune+reviews" target="_blank" rel="noopener noreferrer">READ OUR GOOGLE REVIEWS <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <div class="contact-copy">
+            <p class="eyebrow"><span class="eyebrow-index">07</span> YOUR NEXT CHAPTER STARTS HERE</p>
+            <h2 id="contact-title">Let's create a space<br /><em>that feels like yours.</em></h2>
+            <p>Tell us a little about your space. Our team is just a call away to help you get started.</p>
+
+            <div class="contact-details">
+              <div class="contact-detail"><span class="detail-icon" aria-hidden="true">↗</span><div><span>COME FIND US</span><p>Prabhat Road, Apex Colony,<br />Deccan Gymkhana,<br />Pune, Maharashtra 411004</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Prabhat+Rd%2C+Apex+Colony%2C+Deccan+Gymkhana%2C+Pune%2C+Maharashtra+411004" target="_blank" rel="noopener noreferrer">GET DIRECTIONS ↗</a></div></div>
+              <div class="contact-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><span>OPENING HOURS</span><p>Closes soon · 6:30 pm · Opens 9:30 am Fri</p></div></div>
+              <div class="contact-detail"><span class="detail-icon" aria-hidden="true">⌕</span><div><span>CALL OR WHATSAPP</span><p><a href="tel:+919822043160">+91 98220 43160</a></p></div></div>
+            </div>
+
+            <div class="map-card">
+              <div class="map-art" aria-hidden="true"><span class="map-road map-road-one"></span><span class="map-road map-road-two"></span><span class="map-road map-road-three"></span><span class="map-block map-block-one"></span><span class="map-block map-block-two"></span><span class="map-block map-block-three"></span><span class="map-marker"><span>HUES</span></span></div>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Hues+Architects+And+Interior+Designers%2C+Prabhat+Road%2C+Pune+411004" target="_blank" rel="noopener noreferrer">HUES, DECCAN GYMKHANA, PUNE <span>SEE ON MAP ↗</span></a>
+            </div>
+          </div>
+
+          <form class="consultation-form" id="consultation-form" novalidate>
+            <div class="form-heading"><span>LET'S BEGIN WITH A CONVERSATION</span><p>A few little details, and we'll take it from there.</p></div>
+            <div class="form-field">
+              <label for="name">Your name <span>*</span></label>
+              <input id="name" name="name" type="text" placeholder="What should we call you?" autocomplete="name" aria-describedby="name-error" required minlength="2" />
+              <span class="field-error" id="name-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone number <span>*</span></label>
+              <div class="phone-input"><span aria-hidden="true">+91</span><input id="phone" name="phone" type="tel" placeholder="Your 10-digit number" autocomplete="tel-national" inputmode="numeric" aria-describedby="phone-error" required /></div>
+              <span class="field-error" id="phone-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="property">What are we working on? <span>*</span></label>
+              <select id="property" name="property" aria-describedby="property-error" required>
+                <option value="" disabled selected>Select your space</option>
+                <option>2 BHK apartment</option>
+                <option>3 BHK apartment</option>
+                <option>Villa / independent home</option>
+                <option>Commercial space</option>
+              </select>
+              <span class="field-error" id="property-error"></span>
+            </div>
+            <div class="form-field">
+              <label for="budget">Investment range <span>*</span></label>
+              <select id="budget" name="budget" aria-describedby="budget-error" required>
+                <option value="" disabled selected>Choose a comfortable range</option>
+                <option>Under ₹5 lakh</option>
+                <option>₹5–10 lakh</option>
+                <option>₹10–20 lakh</option>
+                <option>₹20–40 lakh</option>
+                <option>₹40 lakh+</option>
+                <option>I'd like some guidance</option>
+              </select>
+              <span class="field-error" id="budget-error"></span>
+            </div>
+            <button class="button form-submit" type="submit">Request a free consultation <span aria-hidden="true">↗</span></button>
+            <p class="form-note">No spam, no obligation. Just a real conversation with our team.</p>
+            <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+              <strong>Your consultation request is ready.</strong>
+              <span>Send your details to our team on WhatsApp to arrange a time.</span>
+              <a class="button whatsapp-submit" id="send-consultation" href="https://wa.me/919822043160" target="_blank" rel="noopener noreferrer">Send your request on WhatsApp ↗</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="closing-note" aria-label="Studio promise">
+        <span>DESIGNED FOR THE LIFE YOU LIVE.</span><span class="closing-star" aria-hidden="true">✳</span><span>MADE WITH CARE IN PUNE.</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="wordmark footer-wordmark" href="#home" aria-label="Hues Architects And Interior Designers home">
+          <span class="wordmark-name">HUES</span>
+          <span class="wordmark-subtitle">ARCHITECTS &amp; INTERIOR DESIGNERS</span>
+        </a>
+        <p>Architecture and interior design<br />in Pune, Maharashtra.</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div><span>TAKE A LOOK</span><a href="#portfolio">Our work</a><a href="#services">What we do</a><a href="#process">How we work</a></div>
+          <div><span>SAY HELLO</span><a href="#contact">Book a consultation</a><a href="tel:+919822043160">+91 98220 43160</a><a href="https://wa.me/919822043160" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div>
+          <div><span>FOLLOW ALONG</span><a href="https://www.google.com/search?q=Hues+Architects+And+Interior+Designers+Pune+reviews" target="_blank" rel="noopener noreferrer">Google reviews ↗</a></div>
+        </nav>
+      </div>
+      <div class="footer-bottom"><span>© <span id="current-year">2025</span> HUES. MADE WITH CARE.</span><a href="#home">BACK TO TOP ↑</a><span>DECCAN GYMKHANA · PUNE · MAHARASHTRA</span></div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/919822043160?text=Hello%20Hues%20Architects%20And%20Interior%20Designers%2C%20I%27d%20like%20to%20ask%20about%20architecture%20or%20interior%20design." target="_blank" rel="noopener noreferrer" aria-label="Contact Hues Architects And Interior Designers on WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 .8A15.1 15.1 0 0 0 3 23.6L.9 31l7.6-2A15.2 15.2 0 1 0 16 .8Zm0 27.6a12.4 12.4 0 0 1-6.3-1.7l-.5-.3-4.5 1.2L5.9 23l-.3-.5A12.3 12.3 0 1 1 16 28.4Zm6.8-9.2c-.4-.2-2.1-1-2.4-1.1-.3-.1-.6-.2-.8.2-.3.4-.9 1.1-1.1 1.4-.2.2-.4.3-.8.1-.4-.2-1.5-.6-2.9-1.8-1.1-1-1.8-2.1-2-2.5-.2-.4 0-.6.2-.8l.6-.7c.2-.2.2-.4.4-.7.1-.3.1-.5 0-.7l-1.1-2.6c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.5 1.5 3.7c.2.3 2.6 3.9 6.2 5.5.9.4 1.6.7 2.1.8.9.3 1.8.3 2.4.2.8-.1 2.1-.9 2.4-1.7.3-.9.3-1.6.2-1.7-.1-.2-.4-.3-.8-.5Z" fill="currentColor"/></svg>
+      <span>Free consultation</span>
+    </a>
+  </body>
+</html>
